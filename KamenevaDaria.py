@@ -30,7 +30,10 @@ def math_quiz():
     for i in range(total):
         example, correct = generate_example()
         print(f"\nПример №{i+1}: {example} = ?")
-        
+
+        global total_attempts
+        total_attempts += 1  # commit 2
+
         try:
             answer = int(input("Твой ответ: "))
             if answer == correct:
