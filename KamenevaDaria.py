@@ -54,6 +54,10 @@ def math_quiz():
         else:
             print("Нужно подтянуть математику")
 
+def show_stats():
+    global total_attempts
+    print(f"\nПопыток за всё время: {total_attempts}")  # commit 3
+
 while True:
     print("\n1. Начать тренировку")
     print("0. Выйти")
