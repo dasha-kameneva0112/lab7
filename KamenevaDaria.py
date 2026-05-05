@@ -84,6 +84,7 @@ def show_stats():
 while True:
     print("\n1. Начать тренировку")
     print("2. Показать статистику")  # commit 4
+    print("3. Выбрать сложность")  # commit 8
     print("0. Выйти")
     
     choice = input("Выбери: ")
@@ -94,5 +95,7 @@ while True:
         math_quiz()
     elif choice == "2":
         show_stats()  # commit 4
+    elif choice == "3":
+        set_difficulty()  # commit 8
     else:
         print("Некорректный ввод!")
