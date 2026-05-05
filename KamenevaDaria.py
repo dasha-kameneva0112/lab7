@@ -28,6 +28,21 @@ def generate_example():
             example = f"{a} × {b}"
     return example, result
 
+def set_difficulty():
+    global difficulty
+    print("\n1. Лёгкая (1-10)")
+    print("2. Средняя (1-20)")
+    print("3. Сложная (1-50)")
+    choice = input("Выбери: ")
+    if choice == "1":
+        difficulty = "easy"
+    elif choice == "2":
+        difficulty = "medium"
+    elif choice == "3":
+        difficulty = "hard"
+    else:
+        print("Оставлена текущая")  # commit 7
+
 def math_quiz():
     score = 0
     total = 5
