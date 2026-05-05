@@ -24,7 +24,7 @@ def math_quiz():
     score = 0
     total = 5
     
-    print("МАТЕМАТИЧЕСКИЙ ТРЕНАЖЕР")
+    print("МАТЕМАТИЧЕСКИЙ ТРЕНАЖЕР (лучший🤩)")  # commit 5
     print(f"Реши {total} примеров")
     
     for i in range(total):
