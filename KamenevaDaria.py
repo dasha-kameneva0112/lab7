@@ -1,5 +1,7 @@
 import random
 
+total_attempts = 0  # commit 1
+
 def generate_example():
     a = random.randint(1, 20)
     b = random.randint(1, 20)
