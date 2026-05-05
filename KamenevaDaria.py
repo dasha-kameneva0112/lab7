@@ -79,6 +79,7 @@ def math_quiz():
 
 def show_stats():
     global total_attempts
+    print("СТАТИСТИКА")  # commit 11
     print(f"\nПопыток за всё время: {total_attempts}")  # commit 3
 
 while True:
