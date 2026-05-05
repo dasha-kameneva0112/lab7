@@ -60,7 +60,7 @@ def math_quiz():
         try:
             answer = int(input("Твой ответ: "))
             if answer == correct:
-                print("Правильно!")
+                print("Правильно! +1 балл✅")  # commit 9
                 score += 1
             else:
                 print(f"Неверно! Правильный ответ: {correct}")
